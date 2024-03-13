@@ -27,6 +27,7 @@
     "jquery": "^3.7.1",
     "jquey": "^0.0.1-security",
     "ngx-bootstrap": "^12.0.0",
+    "ngx-toastr": "^18.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
