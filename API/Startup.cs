@@ -59,7 +59,7 @@ namespace API
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithMethods("https://localhost:4200"));
 
             app.UseAuthentication();
             app.UseAuthorization();
